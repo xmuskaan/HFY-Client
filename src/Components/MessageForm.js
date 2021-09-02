@@ -5,7 +5,9 @@ import { useState } from "react";
 
 const MessageForm = () => {
      
-    const {values, handleSubmit, handleChange} = useForm(createCallback, {
+    const {values 
+        //,handleSubmit, handleChange
+    } = useForm(createCallback, {
         content:''
     });
 

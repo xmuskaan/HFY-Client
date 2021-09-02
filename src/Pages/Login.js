@@ -18,7 +18,9 @@ const Login = () => {
     
     const history = useHistory();
 
-    const [loginUser , {loading}] = useMutation(LOGIN_USER , {
+    const [loginUser 
+        //,{loading}
+    ] = useMutation(LOGIN_USER , {
         update(_, { data : {login: userData}}){
             context.login(userData);
             history.push('/disc');

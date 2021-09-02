@@ -12,7 +12,7 @@ const wsLink = new WebSocketLink({
 });
 
 const httpLink = createHttpLink({
-    uri:'http://localhost:5000'
+    uri:"https://hfy-server.herokuapp.com/"
 })
 
 //Authorization headers 
