@@ -22,10 +22,14 @@ const PostCard = ( { post:{ body, createdAt , id , username, likeCount , comment
     return ( 
             <div className="postCardContent" as={Link} to ={`/posts/${id}`}> 
                   <Link to={`/${username}`}>
-                      <div className="postHeader" > 
-                            <div className="imageDiv">
+                      <div className="postHeader" >
+
+                            {/* IMAGE DIV TEMPORARILY REMOVED */}
+                            {/* <div className="imageDiv">
                                 <img src=" " alt = "userImage" />
-                            </div>
+                            </div> */}
+                          
+                          
                             <h3 className="postUser"> {username} </h3> 
                         </div> 
                    </Link>
