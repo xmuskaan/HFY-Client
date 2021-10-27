@@ -53,10 +53,10 @@ const SinglePost = () => {
                 <Link to={`/${username}`}>
                     <div className="postHeader">
                     
-//                    temporarily removed
+{/* //                    temporarily removed
 //                            <div className="imageDiv">
 //                             <img src=" " alt = "userImage" />
-//                         </div>
+//                         </div> */}
 
                         <h3 className="postUser"> {username} </h3>
 
