@@ -6,6 +6,7 @@ import love from '../Images/love.png';
 import people from '../Images/people.png';
 import home from '../Images/home.png';
 import userpic from '../Images/user.png';
+import HereForYou from '../Images/Hereforyou.png';
 
 const SideBar = () => {
 
@@ -16,7 +17,7 @@ const SideBar = () => {
     return ( 
         <div className="SideBar">
 
-            <Link to="/">   <p className="title"> HFY </p>  </Link>
+            <Link to="/">  <img src={HereForYou} className="sideBarImg" alt ="HFY" /> </Link>
 
             <div className="SideBarMain">
                 <h6> <Link to="/"> <img src={home} alt="Home" className="sideBarImg"/ > </Link> </h6>
