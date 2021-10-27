@@ -68,7 +68,7 @@ const Register = () => {
                 error={errors.password ? true : false}
                 onChange={handleChange}/>
                 
-                <label htmlFor="confirmPassword">confirmPassword</label>
+                <label htmlFor="confirmPassword">Confirm Password</label>
                 <input type="password" 
                 id="confirmPassword" 
                 placeholder="ConfirmPassword" 
