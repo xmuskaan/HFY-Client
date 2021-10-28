@@ -22,7 +22,7 @@ const SideBar = () => {
             <div className="SideBarMain">
                 <h6> <Link to="/"> <img src={home} alt="Home" className="sideBarImg"/ > </Link> </h6>
                 <h6> <Link to="/disc"> <img src={people} alt="Discussion"className="sideBarImg"/>  </Link> </h6>
-                <h6> <Link to="/rooms"> <img src={love} alt="Rooms"className="sideBarImg"/>  </Link> </h6>
+                {/* <h6> <Link to="/rooms"> <img src={love} alt="Rooms"className="sideBarImg"/>  </Link> </h6> */}
                 
             </div>
 
