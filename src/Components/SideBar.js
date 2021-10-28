@@ -2,7 +2,7 @@ import '../Stylesheets/SideBar.css';
 import {Link} from 'react-router-dom';
 import { AuthContext } from '../context/auth';
 import { useContext} from 'react';
-import love from '../Images/love.png';
+// import love from '../Images/love.png';
 import people from '../Images/people.png';
 import home from '../Images/home.png';
 import userpic from '../Images/user.png';
